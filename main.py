@@ -66,7 +66,6 @@ if response.status_code == 200:
     print("\nConversion Results:")
     print(convert_result)
 
-
     # Save results to a file
     data_to_save = f"""
 Base currency: {currency_base}
